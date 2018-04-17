@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tcpServerTest {
+namespace tcpClientTest {
   class Program {
     static void Main (string[] args) {
-      Server.Start();
+      Client.Run();
     }
   }
 }
